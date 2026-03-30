@@ -1,11 +1,12 @@
-# 10 Books Self-Taught Geniuses Read to Bulletproof Their Thinking
+# Books for Self-Taught Geniuses
 
-*Detailed outlines and summaries for elite reasoning and problem-solving*
+*Detailed outlines and summaries for elite reasoning, problem-solving, and practical skills*
 
 ---
 
 ## Table of Contents
 
+### Books on Thinking and Reasoning
 1. [How to Solve It - George Pólya](#1-how-to-solve-it---george-pólya)
 2. [An Essay on the Psychology of Invention in the Mathematical Field - Jacques Hadamard](#2-an-essay-on-the-psychology-of-invention-in-the-mathematical-field---jacques-hadamard)
 3. [The Uses of Argument - Stephen Toulmin](#3-the-uses-of-argument---stephen-toulmin)
@@ -17,7 +18,16 @@
 9. [The Innovation Algorithm - Genrich Altshuller](#9-the-innovation-algorithm---genrich-altshuller)
 10. [Studies in Iconology - Erwin Panofsky](#10-studies-in-iconology---erwin-panofsky)
 
+### Books on Technical Mastery
+11. [Debugging - David J. Agans](#11-debugging---david-j-agans)
+12. [The Art of Electronics - Horowitz & Hill](#12-the-art-of-electronics---horowitz--hill)
+13. [Metalworking: Doing It Better - Tom Lipton](#13-metalworking-doing-it-better---tom-lipton)
+14. [Machinery's Handbook - Oberg & Jones](#14-machinerys-handbook---oberg--jones)
+15. [Building Scientific Apparatus - Moore, Davis & Coplan](#15-building-scientific-apparatus---moore-davis--coplan)
+
 ---
+
+# Books on Thinking and Reasoning
 
 ## 1. How to Solve It - George Pólya
 
@@ -870,9 +880,437 @@ Three layers of analysis:
 
 ---
 
+# Books on Technical Mastery
+
+## 11. Debugging - David J. Agans
+
+**Publication:** 2002 (Amacom)
+**Pages:** ~200
+**Core Concept:** Nine systematic rules for finding elusive hardware and software problems.
+
+### Core Philosophy
+
+Debugging is not art or magic—it's a systematic science based on nine fundamental rules. These rules are "obvious but not easy"—common sense that's often neglected in the heat of battle. The methodology applies universally to software, hardware, integrated systems, and even non-technical debugging.
+
+**Key Distinction:**
+- **Debugging:** Figuring out why a design doesn't work as planned
+- **Troubleshooting:** Figuring out what's broken in a particular instance of a working design
+
+### The Nine Indispensable Rules
+
+#### 1. Understand the System
+- Read the manual before all else fails
+- Know design specs, schematics, code comments
+- Read everything cover to cover—the bug often hides in skipped sections
+- Know what's reasonable to recognize anomalies
+- Understand architecture and interfaces
+- Know your tools' capabilities and limitations
+- Look up details—never guess at pinouts or parameters
+
+#### 2. Make It Fail
+- Create repeatable test cases
+- Start from known state to avoid state dependencies
+- Stimulate failure (automate to make it fail faster)
+- **Don't simulate the failure mechanism itself**
+- For intermittent bugs: capture logs, control variables, amplify randomness
+- "That can't happen" is usually wrong—the failure did happen
+
+#### 3. Quit Thinking and Look
+- Stop theorizing; start observing
+- See the low-level failure before guessing
+- Instrument to see exactly what is happening
+- **Heisenberg Uncertainty:** Instrumentation can affect the system—prove bug still occurs after
+- Hypotheses guide where to look, not what to fix
+
+#### 4. Divide and Conquer
+- Use binary search principles
+- Split system; determine if bug is upstream or downstream
+- If data is "good" at point A and "bad" at point B—bug is between them
+- Inject easy-to-spot patterns (00 55 AA FF)
+- Start with the bad; work backward
+- Fix known bugs first—they may hide each other
+- Fix noise/race conditions before secondary effects
+
+#### 5. Change One Thing at a Time
+- Use a rifle, not a shotgun
+- If you change three things and it works, you don't know which fixed it
+- **Grab the Brass Bar:** (Nuclear sub protocol) Prevent panic-changing that buries faults
+- Compare with good system—the difference points to bug
+- Back out failed changes immediately
+- Check what changed since last success
+
+#### 6. Keep an Audit Trail
+- Write down what you did, in order, with results
+- "The shortest pencil is longer than the longest memory"
+- Record everything—even seemingly insignificant details
+- Correlate timestamps across multiple systems
+- Use version control
+
+#### 7. Check the Plug
+- Question your assumptions
+- Is it plugged in? Is power on? Right code running?
+- Don't start at square three—check initialization
+- Test your debugging tools—dead multimeter battery?
+
+#### 8. Get a Fresh View
+- Bring in unbiased eyes
+- Rubber-duck debugging—explaining reveals solutions
+- Report symptoms, not theories (don't drag helpers into your rut)
+- Don't be proud—bugs aren't personal failures
+
+#### 9. If You Didn't Fix It, It Ain't Fixed
+- Run failing test case—if it passes, you might have fixed it (or got lucky)
+- Remove your fix; bug should return. Reapply; bug should disappear
+- Intermittent bugs that "disappear" will return—worst time
+- Fix the cause, not the symptom
+- Fix the process if design is flawed
+
+### Book Structure
+
+- **Chapters 1–11:** Each rule gets a chapter with "War Story" (real example)
+- **Chapter 12:** All rules in one story ("Missing Read Pulse")
+- **Chapter 13:** Exercises—identify which rules are violated/applied
+- **Chapter 14:** Help desk perspective (remote debugging)
+- **Chapter 15:** Summary and encouragement
+
+### Key Takeaways
+
+- Debugging is systematic, not guesswork
+- Rules work for software bugs, hardware failures, car trouble, plumbing
+- Most debugging time wasted by neglecting obvious rules
+- Keep audit trail and question assumptions to avoid chasing ghosts
+
+---
+
+## 12. The Art of Electronics - Paul Horowitz & Winfield Hill
+
+**Publication:** 3rd Edition 2015 (Cambridge University Press)
+**Pages:** 1,220
+**Core Concept:** Comprehensive electronics reference from fundamentals to advanced precision design.
+
+### Book Structure
+
+**Chapter 1: Foundations**
+- Voltage, current, resistance (Ohm's law, dividers, Thevenin equivalent)
+- Signals (sinusoidal, decibels, logic levels)
+- Capacitors and AC circuits (RC, differentiators, integrators)
+- Inductors and transformers
+- Diodes and circuits (rectification, regulators, protection)
+- Impedance and reactance (frequency analysis, filters, resonance)
+
+**Chapter 2: Bipolar Transistors**
+- Basic circuits (switch, emitter follower, current source, amplifier)
+- Ebers-Moll model applied to circuits
+- Amplifier building blocks (push-pull, Darlington, Miller effect)
+- Negative feedback and typical circuits
+
+**Chapter 3: Field-Effect Transistors**
+- JFET characteristics and linear circuits
+- FET switches and analog switches
+- Power MOSFETs
+
+**Chapter 4: Operational Amplifiers**
+- Basic circuits and detailed behavior
+- Selected circuits and single-supply operation
+- Feedback amplifier frequency compensation
+
+**Chapter 5: Precision Circuits**
+- Precision op-amp design techniques
+- Error budgets and component errors
+- Instrumentation amplifiers and auto-zeroing
+- Agilent DMM design examples
+
+**Chapter 6: Filters**
+- Passive and active filter circuits
+
+**Chapter 7: Oscillators and Timers**
+- Oscillator design and timer circuits
+
+**Chapter 8: Low-Noise Techniques**
+- Signal-to-noise ratio and noise figure
+- Low-noise design for bipolar, JFET, and op-amp circuits
+- Interference, shielding, grounding
+
+**Chapter 9: Voltage Regulation and Power Conversion**
+- Linear regulators (723 IC, integrated regulators)
+- Switching regulators and DC-DC converters
+- Heat and power design, energy storage
+- Voltage references
+
+**Chapter 10: Digital Logic**
+- Basic concepts, CMOS and TTL
+- Combinational and sequential logic
+- Micropower design and logic pathology
+
+**Chapter 11: Programmable Logic Devices**
+- Hardware overview and examples
+
+**Chapter 12: Logic Interfacing**
+- CMOS/TTL interfacing
+- Comparators and optoelectronics
+- Driving cables and long lines
+
+**Chapter 13: Digital Meets Analog**
+- D/A and A/D converters
+- ADC types: Flash, successive approximation, delta-sigma
+- Phase-locked loops and pseudorandom sequences
+
+**Chapter 14: Computers, Controllers, and Data Links**
+- Computer architecture and instruction sets
+- Bus signals and memory types
+- Serial and parallel buses
+
+**Chapter 15: Microcontrollers**
+- Design examples (suntan monitor, AC power control)
+- Frequency synthesizer, thermal controller, mechanical platform
+- Peripheral ICs and development environment
+
+**Appendices:**
+- Math review, schematic diagrams, resistor types
+- Thévenin's theorem, transmission lines
+- SPICE primer, oscilloscope tutorial
+- Acronyms and recommended reading
+
+### The X Chapters (Supplement)
+
+Advanced topics including:
+- Resistors in detail
+- BJT amplifier distortion
+- High-voltage techniques
+- Transimpedance amplifiers
+- Current-feedback amplifiers
+- Low-noise isolated power
+
+---
+
+## 13. Metalworking: Doing It Better - Tom Lipton
+
+**Publication:** 2013 (Industrial Press)
+**Pages:** ~400
+**Core Concept:** Shop-tested tips, tricks, and techniques from 40 years of hands-on metalworking.
+
+### Book Structure
+
+**Chapter 1: Diving In**
+- Personal learning attitude and shop culture
+- What makes a journeyman (problem-solving ability)
+- Thursday Nights: shop resources for personal projects
+- The recipe book format
+
+**Chapter 2: Brain Food**
+- Communication, drawing, and sketching
+- Minimizing screw-ups and developing accuracy
+- Shop math: circle properties, trigonometry (SOHCAHTOA)
+- Mass, volume, and area calculations
+- Metric system and computer skills
+
+**Chapter 3: Bean Counters Lounge**
+- Bridging design and fabrication
+- Shop talk: tolerance analysis, dimensioning
+- Tips for engineers working with shops
+
+**Chapter 4: Setting Up Your Shop**
+- Floors, lighting, heating/cooling
+- Air supply and material storage
+- Safety equipment and tool cribs
+- Bench work, filing, saws, and rigging
+
+**Chapter 5: Manual Lathe**
+- Learning to love the lathe
+- Tool post setups and multipurpose tool bits
+- Step turning and threading techniques
+- Multiple start threads
+
+**Chapter 6: Manual Milling Machine**
+- Bridgeport mills: design critique and improvements
+- Tramming, drilling fixtures, slitting saws
+- Spherical surface generation with boring head
+
+**Chapter 7: CNC Mill**
+- Programming tips and fixture planning
+- Workholding tricks (O-rings, double-stick tape, hot melt glue)
+- Thread milling and high-speed steel tools
+
+**Chapter 8: CNC Lathe**
+- Template families and parametric programming
+- Catching parts with magnets and cups
+- CSS control and chip management
+- Soft jaw strategies
+
+**Chapter 9: The Welding Shop**
+- Planning and realistic tolerances
+- Layout work and favorite hand tools
+- Welding tables and brake bumping
+
+**Chapter 10: The Lost Art of Flame Straightening**
+- Heat straightening principles and techniques
+- Mapping distortion and application for shafts, tubes
+
+**Chapter 11: Sheet Metal Shop**
+- Layout techniques and blank length calculations
+- Pattern development and the "Yank" method
+- Forming cones and tanks
+
+**Chapter 12: The Abrasion Department**
+- Sanding, grinding, and abrading techniques
+- Finish quality and radius grinding methods
+
+**Chapter 13: The Junk Drawer**
+- Miscellaneous tricks and shop floor ideas
+
+**Appendices:**
+- Squaring blocks without tool change
+- Recommended reading list
+
+---
+
+## 14. Machinery's Handbook - Erik Oberg & Franklin D. Jones
+
+**Publication:** First 1914 (32nd Edition: 2024)
+**Pages:** ~3,000
+**Core Concept:** The definitive reference for mechanical engineering, machining, and manufacturing.
+
+### Main Contents (12 Major Chapters)
+
+| Chapter | Topic |
+|---------|-------|
+| 1 | **Mathematics** |
+| 2 | **Mechanics and Strength of Materials** |
+| 3 | **Properties, Treatment, and Testing of Materials** |
+| 4 | **Dimensioning, Gaging, and Measuring** |
+| 5 | **Tooling and Toolmaking** |
+| 6 | **Machining Operations** |
+| 7 | **Manufacturing Processes** |
+| 8 | **Fasteners** |
+| 9 | **Threads and Threading** |
+| 10 | **Gears, Splines, and Cams** |
+| 11 | **Machine Elements** |
+| 12 | **Measuring Units** |
+
+### Key Topics Covered
+
+- **Mathematical tables** and reference data
+- **Mechanical engineering principles** and strength of materials
+- **Material properties** (metals, plastics, composites)
+- **Measurement tools** and techniques (calipers, micrometers, gauges)
+- **Cutting tools** and toolmaking
+- **Machining operations** (turning, milling, drilling, grinding)
+- **Manufacturing processes** (casting, forging, welding, sheet metalworking)
+- **Fasteners** (bolts, screws, nuts, washers)
+- **Thread standards** and threading data
+- **Gear design** and spline specifications
+- **Machine elements** (bearings, couplings, shafts, lubrication)
+- **CNC programming** and CAD/CAM operations
+- **Additive manufacturing** (3D printing)
+
+### New in 32nd Edition (2024)
+
+- Over 3,000 pages of content
+- **Additive Manufacturing:** 3D printing materials, techniques, workflow
+- Updated fasteners and threading to latest ANSI/ASME/ISO standards
+- Machine elements: drive couplings, shaft alignment, rolling bearings
+- Metalworking: sheet metalworking dies, pipe welding positioning
+- Part design: CNC machining of carbon-fiber reinforced polymers
+- Materials: embodied energy, carbon footprint, recycling data
+- Expanded metric content with dual units
+
+### Formats
+
+1. **Toolbox Edition:** Compact 5" × 7.25" format (portable)
+2. **Large Print Edition:** 7" × 10" with larger text
+3. **Digital/eBook Edition:** Electronic versions
+
+### Target Audience
+
+The "bible of the metalworking industries" serves:
+- Mechanical engineers and designers
+- Drafters and CAD operators
+- Machinists and toolmakers
+- Manufacturing professionals
+- Educators and students
+- Serious hobbyists and home workshop users
+
+---
+
+## 15. Building Scientific Apparatus - Moore, Davis & Coplan
+
+**Publication:** 4th Edition 2009 (Cambridge University Press)
+**Pages:** ~650
+**Core Concept:** Comprehensive guide to designing and building laboratory instruments for physical sciences.
+
+### Detailed Chapter Outline
+
+**Chapter 1: Mechanical Design and Fabrication**
+- **1.1 Tools and Shop Processes:** Hand tools, machines for holes, lathe, milling machines, EDM, grinders, sheet metal tools, casting, tolerance and surface quality
+- **1.2 Properties of Materials:** Parameters for properties, heat treating/cold working, stress concentration effects
+- **1.3 Materials:** Iron/steel, nickel alloys, copper alloys, aluminum alloys, other metals, plastics, glasses/ceramics
+- **1.4 Joining Materials:** Threaded fasteners, rivets, pins, retaining rings, soldering, brazing, welding, adhesives, joint design, pressure vessel joints
+- **1.5 Mechanical Drawing:** Drawing tools, basic principles, dimensions, tolerances, working drawings
+- **1.6 Physical Principles:** Bending of beams/shafts, twisting, internal pressure, vibration, shaft whirl
+- **1.7 Constrained Motion:** Kinematic design, plain bearings, ball bearings, linear-motion bearings, springs, flexures
+
+**Chapter 2: Working with Glass**
+- **2.1 Properties of Glasses:** Chemical composition, thermal/optical/mechanical properties
+- **2.2 Laboratory Components:** Tubing and rod, demountable joints, valves/stopcocks, graded seals, glass-to-metal seals
+- **2.3 Laboratory Glassblowing Skills:** Tools, cutting, pulling points, sealing, T-seals, ring seals, bending, annealing, grinding/drilling
+
+**Chapter 3: Vacuum Technology**
+- **3.1 Gases:** Residual gases, kinetic theory, surface collisions, bulk vs. molecular behavior
+- **3.2 Gas Flow:** Parameters, network equations, conductance formulae, pumpdown time, outgassing
+- **3.3 Pressure and Flow Measurement:** Mechanical gauges, thermal-conductivity gauges, viscous-drag gauges, ionization gauges, mass spectrometers, flowmeters
+- **3.4 Vacuum Pumps:** Mechanical pumps, vapor diffusion pumps, entrainment pumps
+- **3.5 Vacuum Hardware:** Materials, demountable connections, valves, traps/baffles, molecular beams
+- **3.6 Vacuum-System Design:** Typical systems, differential pumping, metal apparatus construction, leak detection, ultrahigh vacuum
+
+**Chapter 4: Optical Systems**
+- **4.1 Optical Terminology:** Electromagnetic spectrum, wave-particle duality, fundamental parameters
+- **4.2 Characterization and Analysis:** Reflection/refraction, paraxial-ray analysis (matrix methods), nonimaging collectors, imaging systems, aberrations, Gaussian beams
+- **4.3 Optical Components:** Mirrors, windows, lenses (singlet, doublet, aspheric, GRIN, Fresnel), prisms, gratings, polarizers, isolators, filters, fiber optics
+- **4.4 Optical Materials:** Windows/lenses/prisms materials, mirror substrate materials
+- **4.5 Optical Sources:** Coherence, radiometry, photometry, line sources, continuum sources
+- **4.6 Lasers:** General principles, design features, specific systems (gas, solid-state, semiconductor, dye), safety
+- **4.7 Optical Dispersing Instruments:** Spectrometers (prism vs. grating), Fabry-Perot interferometers, Michelson/Mach-Zehnder interferometers
+
+**Chapter 5: Charged-Particle Optics**
+- **5.1 Basic Concepts:** Brightness, Snell's law, Helmholtz-Lagrange law
+- **5.2 Electrostatic Lenses:** Thick lens optics, cylinder/aperture lenses, matrix methods, aberrations
+- **5.3 Charged-Particle Sources:** Electron guns, ion sources
+- **5.4 Energy Analyzers:** Parallel-plate, cylindrical, spherical analyzers
+- **5.5 Mass Analyzers:** Magnetic sector, Wien filter, dynamic mass spectrometers
+- **5.6 Construction:** Vacuum requirements, materials, lens design, detection
+
+**Chapter 6: Electronics**
+- **6.1 Preliminaries:** Circuit theory, high-pass/low-pass circuits, resonant circuits, Laplace transforms
+- **6.2 Passive Components:** Resistors, capacitors, transmission lines, connectors, relays
+- **6.3 Active Components:** Diodes, transistors (BJT, FET, MOSFET, IGBT), SCRs
+- **6.4 Amplifiers and Pulse Electronics:** Transistor amplifiers, op-amps, instrumentation/isolation amplifiers, stability/oscillators
+- **6.5 Power Supplies:** Specifications, regulator circuits, bridges
+- **6.6 Digital Electronics:** Binary counting, Boolean algebra, arithmetic units, D/A conversion, memories
+- **6.7 Data Acquisition:** Data rates, voltage levels, analog inputs, data loggers, CAMAC/NIM systems, PC control
+- **6.8 Extraction of Signal from Noise:** SNR optimization, lock-in amplifiers, signal averaging, waveform recovery
+- **6.9 Grounds and Grounding:** Electrical safety, capacitive/inductive pickup, EMI, ground loops
+- **6.10 Hardware and Construction:** Circuit diagrams, component selection, PCBs, wire-wrap, connectors
+- **6.11 Troubleshooting:** General procedures, identifying parts
+
+**Chapter 7: Detectors**
+- **7.1-7.3:** Optical detectors, noise in detection, figures of merit (NEP, detectivity, responsivity)
+- **7.4-7.7:** Photoemissive detectors (PMTs), photoconductive, photovoltaic (photodiodes), detector arrays
+- **7.8:** Signal-to-noise ratio calculations
+- **7.9:** Particle and ionizing radiation detectors
+- **7.10:** Thermal detectors (thermopiles, bolometers, Golay cell)
+- **7.11-7.12:** Electronics for detectors, calibration
+
+**Chapter 8: Measurement and Control of Temperature**
+- **8.1 Measurement:** Expansion thermometers, thermocouples, resistance thermometers, semiconductor thermometers, cryogenic thermometry
+- **8.2 Control:** Fixed and variable temperature control
+
+---
+
 ## How to Use These Books
 
-### Recommended Starting Points
+### Books on Thinking and Reasoning
+
+**Recommended Starting Points:**
 
 **For Problem-Solving Skills:**
 1. *How to Solve It* (Pólya) - The essential framework
@@ -894,32 +1332,56 @@ Three layers of analysis:
 9. *An Autobiography* (Collingwood) - Historical thinking
 10. *Studies in Iconology* (Panofsky) - Layered interpretation
 
+### Books on Technical Mastery
+
+**For Systematic Debugging:**
+11. *Debugging* (Agans) - Universal problem-solving methodology
+
+**For Electronics:**
+12. *The Art of Electronics* (Horowitz & Hill) - Comprehensive electronics reference
+
+**For Metalworking:**
+13. *Metalworking: Doing It Better* (Lipton) - Practical shop wisdom
+14. *Machinery's Handbook* (Oberg & Jones) - The mechanical engineer's bible
+
+**For Laboratory Construction:**
+15. *Building Scientific Apparatus* (Moore et al.) - Build your own lab equipment
+
 ### Suggested Approach
 
-Start with 2-3 books aligned with your current goals:
-- **Immediate problem-solving:** Pólya + Altshuller
-- **Improving arguments:** Toulmin + Booth
-- **Understanding creativity:** Hadamard + Collingwood
+**Start with 2-3 books aligned with your current goals:**
+- **Immediate problem-solving:** Pólya + Agans + Altshuller
+- **Improving arguments:** Toulmin + Booth + Hacking
+- **Understanding creativity:** Hadamard + Collingwood + TRIZ
 - **Critical communication:** Hayakawa + Korzybski
+- **Building things:** Horowitz + Lipton + Oberg + Moore
 
-Read deeply rather than widely. These books repay careful study with years of improved thinking.
+Read deeply rather than widely. These books repay careful study with years of improved thinking and doing.
 
 ---
 
 ## Sources and References
 
+### Books on Thinking and Reasoning
 - [How to Solve It - Wikipedia](https://en.wikipedia.org/wiki/How_to_Solve_It)
-- [The Psychology of Invention in the Mathematical Field - MacTutor](https://mathshistory.st-andrews.ac.uk/Extras/Hadamard_mathematician/)
-- [The Uses of Argument - Cambridge University Press](https://www.cambridge.org/core/books/uses-of-argument/26CF801BC12004587B66778297D5567C)
+- [The Psychology of Invention - MacTutor](https://mathshistory.st-andrews.ac.uk/Extras/Hadamard_mathematician/)
+- [The Uses of Argument - Cambridge](https://www.cambridge.org/core/books/uses-of-argument/26CF801BC12004587B66778297D5567C)
 - [Science and Sanity - Online Book](http://www.rodsmith.org.uk/alfred-korzybski/)
 - [Language in Thought and Action - Wikipedia](https://en.wikipedia.org/wiki/Language_in_Thought_and_Action)
 - [R.G. Collingwood - Wikipedia](https://en.wikipedia.org/wiki/R._G._Collingwood)
 - [An Introduction to Probability and Inductive Logic - Cambridge](https://www.cambridge.org/highereducation/books/an-introduction-to-probability-and-inductive-logic/EA38518337057366AD690C789DD546B8)
-- [The Craft of Research - University of Chicago Press](https://press.uchicago.edu/ucp/books/book/chicago/C/bo215874008.html)
-- [The Innovation Algorithm - Book Summaries](https://summaries.muthu.co/posts/creativity_and_innovation/the-innovation-algorithm/)
+- [The Craft of Research - Chicago Press](https://press.uchicago.edu/ucp/books/book/chicago/C/bo215874008.html)
+- [The Innovation Algorithm - Summaries](https://summaries.muthu.co/posts/creativity_and_innovation/the-innovation-algorithm/)
 - [Studies in Iconology - Routledge](https://www.routledge.com/Studies-in-Iconology-Humanistic-Themes-in-the-Art-of-the-Renaissance/Panofsky-Panofsky/p/book/9780064300254)
+
+### Books on Technical Mastery
+- [Debugging - Amazon](https://www.amazon.com/Debugging-Indispensable-Software-Hardware-Problems/dp/0814474578)
+- [The Art of Electronics](https://artofelectronics.net/)
+- [Metalworking: Doing It Better - Industrial Press](http://books.industrialpress.com/product/metalworking-doing-it-better/)
+- [Machinery's Handbook - Industrial Press](http://books.industrialpress.com/product/machinerys-handbook-toolbox/)
+- [Building Scientific Apparatus - Cambridge](https://www.cambridge.org/us/universitypress/subjects/physics/general-and-classical-physics/building-scientific-apparatus-4th-edition)
 
 ---
 
 *Generated: 2026-03-30*
-*Purpose: Detailed outlines for self-study in reasoning and problem-solving*
+*Purpose: Detailed outlines for self-study in reasoning, problem-solving, and technical mastery*
