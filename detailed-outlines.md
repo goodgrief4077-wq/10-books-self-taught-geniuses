@@ -8,7 +8,7 @@
 
 ### Books on Thinking and Reasoning
 1. [How to Solve It - George Pólya](#1-how-to-solve-it---george-pólya)
-2. [An Essay on the Psychology of Invention in the Mathematical Field - Jacques Hadamard](#2-an-essay-on-the-psychology-of-invention-in-the-mathematical-field---jacques-hadamard)
+2. [An Essay on the Psychology of Invention - Jacques Hadamard](#2-an-essay-on-the-psychology-of-invention-in-the-mathematical-field---jacques-hadamard)
 3. [The Uses of Argument - Stephen Toulmin](#3-the-uses-of-argument---stephen-toulmin)
 4. [Science and Sanity - Alfred Korzybski](#4-science-and-sanity---alfred-korzybski)
 5. [Language in Thought and Action - S.I. Hayakawa](#5-language-in-thought-and-action---si-hayakawa)
@@ -24,6 +24,37 @@
 13. [Metalworking: Doing It Better - Tom Lipton](#13-metalworking-doing-it-better---tom-lipton)
 14. [Machinery's Handbook - Oberg & Jones](#14-machinerys-handbook---oberg--jones)
 15. [Building Scientific Apparatus - Moore, Davis & Coplan](#15-building-scientific-apparatus---moore-davis--coplan)
+
+### Books That Shaped Extraordinary Minds
+16. [Euclid's Elements](#16-euclids-elements)
+17. [On Architecture - Vitruvius](#17-on-architecture---vitruvius)
+18. [The Spectator](#18-the-spectator)
+19. [Plutarch's Lives](#19-plutarchs-lives)
+20. [War and Peace - Tolstoy](#20-war-and-peace---tolstoy)
+21. [The Grapes of Wrath - Steinbeck](#21-the-grapes-of-wrath---steinbeck)
+22. [Faust - Goethe](#22-faust---goethe)
+23. [Candide - Voltaire](#23-candide---voltaire)
+24. [Principles of Quantum Mechanics - Dirac](#24-principles-of-quantum-mechanics---dirac)
+25. [Six Easy Pieces - Feynman](#25-six-easy-pieces---feynman)
+26. [The Interpretation of Dreams - Freud](#26-the-interpretation-of-dreams---freud)
+27. [Das Kapital - Marx](#27-das-kapital---marx)
+28. [Confessions - Augustine](#28-confessions---augustine)
+29. [The Conservative Mind - Kirk](#29-the-conservative-mind---kirk)
+30. [Meditations - Marcus Aurelius](#30-meditations---marcus-aurelius)
+
+### Books on Software Engineering & AI
+31. [The Pragmatic Programmer](#31-the-pragmatic-programmer)
+32. [Clean Code](#32-clean-code)
+33. [Modern Software Engineering](#33-modern-software-engineering)
+34. [The Hundred-Page Machine Learning Book](#34-the-hundred-page-machine-learning-book)
+35. [AI Engineering](#35-ai-engineering)
+36. [Deep Work](#36-deep-work)
+
+### Books on Personal Development
+37. [Atomic Habits](#37-atomic-habits)
+38. [I Will Teach You to Be Rich](#38-i-will-teach-you-to-be-rich)
+39. [How to Win Friends & Influence People](#39-how-to-win-friends--influence-people)
+40. [The Last Lecture](#40-the-last-lecture)
 
 ---
 
@@ -1306,6 +1337,326 @@ The "bible of the metalworking industries" serves:
 
 ---
 
+## 16. Euclid's Elements
+
+**Author:** Euclid (circa 300 BCE)
+**Core Concept:** The foundational text of geometry and deductive reasoning.
+
+**Why It Shaped Genius:**
+- Leonardo da Vinci used it as a source of inspiration
+- Demonstrates how lines, angles, and shapes relate to one another
+- Applications: perspective in painting, engineering bridges, anatomy proportions
+- **Lesson:** Pick one foundational text in your field that everything else rests on and reread it until it feels like second nature.
+
+---
+
+## 17. On Architecture (De Architectura) - Vitruvius
+
+**Author:** Marcus Vitruvius Pollio (Roman architect)
+**Core Concept:** Architecture as harmony between structure, utility, and beauty.
+
+**Why It Shaped Genius:**
+- Inspired Leonardo's famous Vitruvian Man
+- Argued that the human body embodies the geometry of the cosmos
+- Used by Leonardo as a lens for thinking about balance, harmony, and design
+- **Lesson:** Read outside your domain—cross-pollination creates breakthroughs.
+
+---
+
+## 18. The Spectator
+
+**Authors:** Joseph Addison and Richard Steele
+**Core Concept:** Essays on morality, society, and proper conduct.
+
+**Why It Shaped Genius:**
+- Benjamin Franklin used it to build his writing skills
+- Method: Study structure → Outline → Hide original → Reconstruct from memory → Compare to original
+- **Lesson:** Imitate, reconstruct, compare—convert admiration into actual ability.
+
+---
+
+## 19. Plutarch's Lives
+
+**Author:** Plutarch
+**Core Concept:** Parallel biographies of Greek and Roman heroes.
+
+**Why It Shaped Genius:**
+- Franklin's source for moral case studies
+- Examines why people rise and fall, what qualities they cultivate
+- **Lesson:** Read biographies as cause-and-effect studies, not vague inspiration.
+
+---
+
+## 20. War and Peace - Leo Tolstoy
+
+**Author:** Leo Tolstoy
+**Core Concept:** Epic novel exploring history, leadership, and human agency.
+
+**Why It Shaped Genius:**
+- Nelson Mandela read it during 27 years imprisonment
+- Character Kutuzov taught leadership under pressure
+- **Lesson:** Read for strategic empathy—understand systems beneath the surface.
+
+---
+
+## 21. The Grapes of Wrath - John Steinbeck
+
+**Author:** John Steinbeck
+**Core Concept:** Novel about resilience of the oppressed during the Great Depression.
+
+**Why It Shaped Genius:**
+- Mandela said it helped him understand resilience and structural forces
+- Shows how human dignity fights back under impossible odds
+- **Lesson:** Read uncomfortable books that force you outside your bubble.
+
+---
+
+## 22. Faust - Johann Wolfgang von Goethe
+
+**Author:** Johann Wolfgang von Goethe
+**Core Concept:** Poetic drama about human striving, temptation, and redemption.
+
+**Why It Shaped Genius:**
+- Nicola Tesla's fuel for creativity
+- Great literature as fuel for technical thinking
+- **Lesson:** Fiction sparks creativity and gives emotional texture to technical ideas.
+
+---
+
+## 23. Candide - Voltaire
+
+**Author:** Voltaire
+**Core Concept:** Satire dismantling blind optimism.
+
+**Why It Shaped Genius:**
+- Tesla had read Voltaire's entire body of work by age 17
+- Teaches skepticism and refusal to accept inherited explanations
+- **Lesson:** Question everything; don't confuse hopeful thinking with rigorous thinking.
+
+---
+
+## 24. Principles of Quantum Mechanics - Paul Dirac
+
+**Author:** Paul A.M. Dirac
+**Core Concept:** Mathematical foundations of quantum theory.
+
+**Why It Shaped Genius:**
+- Richard Feynman attempted to read this above his level
+- Wrestling with difficult ideas stretches your brain's capacity
+- **Lesson:** Read above your level; challenge your brain to rewire and adapt.
+
+---
+
+## 25. Six Easy Pieces - Richard Feynman
+
+**Author:** Richard P. Feynman
+**Core Concept:** Essential physics explained simply.
+
+**Why It Shaped Genius:**
+- Masterclass in summarization and clarity
+- Feynman's ability to strip complex ideas to essence
+- **Lesson:** After learning, explain it simply. If you can't, you don't understand it yet.
+
+---
+
+## 26. The Interpretation of Dreams - Sigmund Freud
+
+**Author:** Sigmund Freud
+**Core Concept:** The psychology of dreams and the unconscious.
+
+**Why It Shaped Genius:**
+- Inspired Frida Kahlo's artistic works including "Moses"
+- Phenomenology: study of raw experience
+- **Lesson:** Read books that unsettle you—discomfort breeds originality.
+
+---
+
+## 27. Das Kapital - Karl Marx
+
+**Author:** Karl Marx
+**Core Concept:** Analysis of capitalism, labor, and economic systems.
+
+**Why It Shaped Genius:**
+- Shaped Frida Kahlo's worldview
+- Framework for understanding suffering, illness, labor, identity
+- **Lesson:** Read books that challenge your worldview, not just reinforce it.
+
+---
+
+## 28. Confessions - Augustine of Hippo
+
+**Author:** Augustine of Hippo
+**Core Concept:** Spiritual autobiography and philosophical inquiry.
+
+**Why It Shaped Genius:**
+- Shaped John Henry Newman's moral clarity
+- Method of interior examination and brutal honesty
+- **Lesson:** Interrogate how you edit your own narrative to preserve ego.
+
+---
+
+## 29. The Conservative Mind - Russell Kirk
+
+**Author:** Russell Kirk
+**Core Concept:** History of conservative thought.
+
+**Why It Shaped Genius:**
+- Roger Scruton's philosophical foundation
+- **Lesson:** Understand intellectual traditions deeply, not superficially.
+
+---
+
+## 30. Meditations - Marcus Aurelius
+
+**Author:** Marcus Aurelius
+**Core Concept:** Stoic philosophy and self-governance.
+
+**Why It Shaped Genius:**
+- Guide to navigating chaos with clarity
+- Used by many Oxford scholars
+- **Lesson:** Philosophy is for living, not just reading.
+
+---
+
+# Books on Software Engineering & AI
+
+## 31. The Pragmatic Programmer - Andrew Hunt & David Thomas
+
+**Publication:** 1999 (2nd Edition 2019)
+**Core Concept:** Practical advice for software craftsmanship.
+
+**Key Topics:**
+- DRY principle (Don't Repeat Yourself)
+- Orthogonality and decoupling
+- Prototyping and tracer bullets
+- Automation and testing
+- Career development for programmers
+
+---
+
+## 32. Clean Code - Robert C. Martin
+
+**Publication:** 2008
+**Core Concept:** Writing readable, maintainable code.
+
+**Key Topics:**
+- Meaningful names
+- Functions should do one thing
+- Comments as failures
+- Error handling
+- Unit testing
+- Code smells and refactoring
+
+---
+
+## 33. Modern Software Engineering - David Farley
+
+**Publication:** 2021
+**Core Concept:** Evidence-based approach to software development.
+
+**Key Topics:**
+- Continuous delivery
+- Test-driven development
+- Working in small batches
+- Engineering practices for the 21st century
+
+---
+
+## 34. The Hundred-Page Machine Learning Book - Andriy Burkov
+
+**Publication:** 2019
+**Core Concept:** Concise introduction to ML fundamentals.
+
+**Key Topics:**
+- Supervised and unsupervised learning
+- Deep learning basics
+- Model evaluation
+- Practical advice for practitioners
+
+---
+
+## 35. AI Engineering - Chip Huyen
+
+**Publication:** 2024
+**Core Concept:** Building production ML systems.
+
+**Key Topics:**
+- Data engineering for ML
+- Feature stores
+- Model deployment and monitoring
+- MLOps best practices
+
+---
+
+## 36. Deep Work - Cal Newport
+
+**Publication:** 2016
+**Core Concept:** Rules for focused success in a distracted world.
+
+**Key Topics:**
+- Definition and value of deep work
+- Working deeply (strategies)
+- Embracing boredom
+- Quitting social media
+- Draining the shallows
+
+---
+
+# Books on Personal Development & Habits
+
+## 37. Atomic Habits - James Clear
+
+**Publication:** 2018
+**Core Concept:** Tiny changes, remarkable results.
+
+**Key Framework:**
+- 1% improvement every day
+- Four laws of behavior change
+- Identity-based habits vs. outcome-based
+- Habit stacking and environment design
+
+---
+
+## 38. I Will Teach You to Be Rich - Ramit Sethi
+
+**Publication:** 2009 (2nd Edition 2019)
+**Core Concept:** Practical personal finance for young people.
+
+**Key Topics:**
+- Automated money management
+- Conscious spending plan
+- Investment basics
+- Negotiation strategies
+
+---
+
+## 39. How to Win Friends & Influence People - Dale Carnegie
+
+**Publication:** 1936
+**Core Concept:** Principles for effective human relations.
+
+**Key Principles:**
+- Don't criticize, condemn, or complain
+- Give honest and sincere appreciation
+- Arouse in the other person an eager want
+- Become genuinely interested in other people
+- Remember names
+
+---
+
+## 40. The Last Lecture - Randy Pausch
+
+**Publication:** 2008
+**Core Concept:** Achieving your childhood dreams.
+
+**Key Lessons:**
+- Brick walls are there for a reason
+- Enabling the dreams of others
+- Lessons from working in Virtual Reality
+- Legacy and what matters most
+
+---
+
 ## How to Use These Books
 
 ### Books on Thinking and Reasoning
@@ -1381,7 +1732,32 @@ Read deeply rather than widely. These books repay careful study with years of im
 - [Machinery's Handbook - Industrial Press](http://books.industrialpress.com/product/machinerys-handbook-toolbox/)
 - [Building Scientific Apparatus - Cambridge](https://www.cambridge.org/us/universitypress/subjects/physics/general-and-classical-physics/building-scientific-apparatus-4th-edition)
 
+### Books That Shaped Extraordinary Minds
+- [Euclid's Elements - Online](https://mathcs.clarku.edu/~djoyce/elements/elements.html)
+- [War and Peace - Goodreads](https://www.goodreads.com/book/show/656.War_and_Peace)
+- [The Grapes of Wrath - Goodreads](https://www.goodreads.com/book/show/18114322-the-grapes-of-wrath)
+- [Faust - Project Gutenberg](https://www.gutenberg.org/files/2229/2229-h/2229-h.htm)
+- [Candide - Project Gutenberg](https://www.gutenberg.org/files/19942/19942-h/19942-h.htm)
+- [Six Easy Pieces - Caltech](https://www.feynmanlectures.caltech.edu/)
+- [Meditations - Project Gutenberg](https://www.gutenberg.org/files/2680/2680-h/2680-h.htm)
+
+### Software Engineering & AI
+- [The Pragmatic Programmer - PragProg](https://pragprog.com/titles/tpp20/)
+- [Clean Code - Amazon](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+- [Modern Software Engineering - Amazon](https://www.amazon.com/Modern-Software-Engineering-David-Farley/dp/0137314914)
+- [The Hundred-Page Machine Learning Book](http://themlbook.com/)
+- [AI Engineering - Chip Huyen](https://www.oreilly.com/library/view/ai-engineering/9781098166298/)
+- [Deep Work - Cal Newport](https://calnewport.com/books/deep-work/)
+
+### Personal Development
+- [Atomic Habits - James Clear](https://jamesclear.com/atomic-habits)
+- [I Will Teach You to Be Rich - Ramit Sethi](https://www.iwillteachyoutoberich.com/)
+- [How to Win Friends - Dale Carnegie](https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034)
+- [The Last Lecture - Randy Pausch](https://www.amazon.com/Last-Lecture-Randy-Pausch/dp/1401323251)
+
 ---
 
 *Generated: 2026-03-30*
-*Purpose: Detailed outlines for self-study in reasoning, problem-solving, and technical mastery*
+*Updated: 2026-03-30*
+*Purpose: Detailed outlines for self-study in reasoning, problem-solving, technical mastery, and personal development*
+*Total Books: 40*
